@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tourguide">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TourGuide">
+        <activity android:name=".List_of_Hotels" />
+        <activity android:name=".List_of_Sports" />
+        <activity android:name=".List_of_cities" />
+        <activity android:name=".List_of_Haunted" />
+        <activity android:name=".list_of_temples" />
+        <activity android:name=".List_of_Forts" />
+        <activity android:name=".Card_view_menu" />
+        <activity android:name=".Signin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

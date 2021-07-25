@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".List_of_Sports">
+    <ListView
+        android:id="@+id/listview5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/black"
+        android:dividerHeight="3dp"
+        android:listSelector="#B6F6AF"/>
+
+</LinearLayout>

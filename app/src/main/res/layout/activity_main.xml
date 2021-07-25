@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/main2">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  WelcomeTo Musheer Travells"
+        android:textSize="28dp"
+        android:textColor="#1EA397"
+        android:textStyle="bold"
+        android:paddingLeft="5dp"/>
+
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="93dp"
+        android:hint="Enter Your Name"
+        android:textColor="#00BCD4"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit1"
+        android:hint="Enter Your Email ID"
+        android:textAlignment="center"
+        android:textColor="#00BCD4"
+        android:textSize="25dp"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_below="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColor="#00BCD4"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_below="@+id/edit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:textColor="#00BCD4"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginBottom="80dp"
+        android:text="SIGN UP"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="80dp"
+        android:text="SIGN IN"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"/>
+
+
+</RelativeLayout>

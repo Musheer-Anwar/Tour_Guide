@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/hotel"
+        android:id="@+id/img1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="35dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Musheer"
+            android:textSize="25dp"
+            android:textColor="@color/teal_700"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:id="@+id/textview1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Anwar"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/teal_200"
+            android:layout_margin="5dp"
+            android:id="@+id/textview2"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
